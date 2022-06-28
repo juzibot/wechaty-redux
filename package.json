@@ -1,6 +1,6 @@
 {
-  "name": "wechaty-redux",
-  "version": "1.20.2",
+  "name": "@juzi/wechaty-redux",
+  "version": "1.0.0",
   "description": "Wechaty Redux Plugin Powered By Ducks",
   "type": "module",
   "exports": {
@@ -33,7 +33,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wechaty/wechaty-redux.git"
+    "url": "git+https://github.com/juzibot/wechaty-redux.git"
   },
   "keywords": [
     "wechaty",
@@ -44,9 +44,9 @@
   "author": "Huan LI <zixia@zixia.net> (李卓桓)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/wechaty/wechaty-redux/issues"
+    "url": "https://github.com/juzibot/wechaty-redux/issues"
   },
-  "homepage": "https://github.com/wechaty/wechaty-redux#readme",
+  "homepage": "https://github.com/juzibot/wechaty-redux#readme",
   "publishConfig": {
     "tag": "next"
   },
@@ -63,12 +63,11 @@
     "uuid": "^8.3.2"
   },
   "peerDependencies": {
-    "wechaty": "^1.18.1",
-    "wechaty-puppet": "^1.18.3"
+    "@juzi/wechaty": "1.0.0",
+    "@juzi/wechaty-puppet": "1.0.0"
   },
   "devDependencies": {
     "@chatie/eslint-config": "^1.0.4",
-    "@chatie/git-scripts": "^0.6.2",
     "@chatie/semver": "^0.4.7",
     "@chatie/tsconfig": "^4.6.3",
     "@types/glob": "^7.2.0",
@@ -76,7 +75,7 @@
     "@types/uuid": "^8.3.4",
     "glob": "^7.2.0",
     "remote-redux-devtools": "^0.5.16",
-    "wechaty-puppet-mock": "^1.18.2"
+    "wechaty-puppet-mock": "1.0.0"
   },
   "files": [
     "bin/",
@@ -85,10 +84,5 @@
   ],
   "tap": {
     "check-coverage": false
-  },
-  "git": {
-    "scripts": {
-      "pre-push": "npx git-scripts-pre-push"
-    }
   }
 }
