@@ -17,8 +17,8 @@
  *   limitations under the License.
  *
  */
-import { log }            from 'wechaty-puppet'
-import type * as WECHATY  from 'wechaty'
+import { log }            from '@juzi/wechaty-puppet'
+import type * as WECHATY  from '@juzi/wechaty'
 import type {
   Store,
 }                         from 'redux'

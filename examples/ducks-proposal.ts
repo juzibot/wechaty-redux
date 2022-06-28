@@ -17,7 +17,7 @@
  *   limitations under the License.
  *
  */
-import { WechatyBuilder } from 'wechaty'
+import { WechatyBuilder } from '@juzi/wechaty'
 import { Ducks }   from 'ducks'
 import {
   WechatyRedux,

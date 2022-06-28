@@ -18,8 +18,8 @@
  *
  */
 import type { Store }     from 'redux'
-import { log }            from 'wechaty-puppet'
-import type * as WECHATY  from 'wechaty'
+import { log }            from '@juzi/wechaty-puppet'
+import type * as WECHATY  from '@juzi/wechaty'
 
 import * as duck from '../duck/mod.js'
 

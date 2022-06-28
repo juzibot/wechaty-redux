@@ -25,7 +25,7 @@ import type {
   DeepReadonly,
 }                     from 'utility-types'
 
-import type * as PUPPET from 'wechaty-puppet'
+import type * as PUPPET from '@juzi/wechaty-puppet'
 
 import * as actions from './actions.js'
 

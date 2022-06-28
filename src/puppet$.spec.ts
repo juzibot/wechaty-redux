@@ -4,7 +4,7 @@ import {
   test,
   sinon,
 }                           from 'tstest'
-import { PuppetMock }       from 'wechaty-puppet-mock'
+import { PuppetMock }       from '@juzi/wechaty-puppet-mock'
 import type {
   Store,
 }                           from 'redux'

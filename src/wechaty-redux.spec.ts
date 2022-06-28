@@ -27,8 +27,8 @@ import {
 import {
   WechatyBuilder,
   Message,
-}                   from 'wechaty'
-import * as PUPPET  from 'wechaty-puppet'
+}                   from '@juzi/wechaty'
+import * as PUPPET  from '@juzi/wechaty-puppet'
 
 import {
   createStore,
@@ -43,7 +43,7 @@ import {
 import {
   mock,
   PuppetMock,
-}                 from 'wechaty-puppet-mock'
+}                 from '@juzi/wechaty-puppet-mock'
 
 import {
   getPuppet,

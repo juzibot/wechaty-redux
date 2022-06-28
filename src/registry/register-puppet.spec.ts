@@ -5,8 +5,8 @@ import {
   sinon,
 }                           from 'tstest'
 import { Subject }          from 'rxjs'
-import { PuppetMock }       from 'wechaty-puppet-mock'
-import { WechatyBuilder }   from 'wechaty'
+import { PuppetMock }       from '@juzi/wechaty-puppet-mock'
+import { WechatyBuilder }   from '@juzi/wechaty'
 import type {
   Store,
 }                           from 'redux'

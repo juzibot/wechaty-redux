@@ -17,8 +17,8 @@
  *   limitations under the License.
  *
  */
-import type * as PUPPET   from 'wechaty-puppet'
-import type * as WECHATY  from 'wechaty'
+import type * as PUPPET   from '@juzi/wechaty-puppet'
+import type * as WECHATY  from '@juzi/wechaty'
 
 // interface WechatyLike {
 //   id: string,

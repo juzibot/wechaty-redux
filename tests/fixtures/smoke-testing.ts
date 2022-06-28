@@ -22,9 +22,9 @@ import {
   Duck,
   WechatyRedux,
   VERSION,
-}                 from 'wechaty-redux'
+}                 from '@juzi/wechaty-redux'
 import { Ducks }  from 'ducks'
-import { WechatyBuilder } from 'wechaty'
+import { WechatyBuilder } from '@juzi/wechaty'
 
 async function main () {
   const ducks = new Ducks({ wechaty: Duck })
