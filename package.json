@@ -48,7 +48,8 @@
   },
   "homepage": "https://github.com/juzibot/wechaty-redux#readme",
   "publishConfig": {
-    "tag": "next"
+    "tag": "next",
+    "access": "public"
   },
   "dependencies": {
     "ducks": "^1.0.2",
